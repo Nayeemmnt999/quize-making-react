@@ -19,6 +19,7 @@ const QuizComponent = ({ questons }) => {
     const chekQuiz = (id) => {
         if (id === correctAns) {
             toast('Correct Ans')
+            toast('your are good ')
         }
         else {
             toast('not correct')
