@@ -18,7 +18,7 @@ const QuizComponent = ({ questons }) => {
     let correctAns = questons.correctAnswer;
     const chekQuiz = (id) => {
         if (id === correctAns) {
-            toast('Correct')
+            toast('Correct Ans')
         }
         else {
             toast('not correct')
@@ -48,7 +48,7 @@ const QuizComponent = ({ questons }) => {
                         quisOption.map(option => <QuizeOptions
                             key={option.id}
                             option={option}
-                           
+
                             chekQuiz={chekQuiz}
                         ></QuizeOptions>)
                     }

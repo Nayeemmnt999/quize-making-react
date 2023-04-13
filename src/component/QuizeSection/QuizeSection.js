@@ -4,7 +4,6 @@ import QuizComponent from './QuizComponent';
 
 const QuizeSection = () => {
     const quizQuis = useLoaderData().data.questions ;
-    // console.log(quizQuis);
     return (
         <div>
             {
