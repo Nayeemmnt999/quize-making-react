@@ -1,0 +1,27 @@
+
+                    {/* <li>
+                            <div>
+                                <button><input type="radio" id={questons.id} name='answer' className='radio' /></button>
+
+                                <label For={questons.id}>{questons.options[0]}</label>
+                            </div>
+
+                        </li>
+                        <li>
+                            <input type="radio" id={questons.id} name='answer' className='radio' />
+                            <label For={questons.id}>{questons.options[1]}</label>
+                        </li>
+                        <li>
+                            <input type="radio" id={questons.id} name='answer' className='radio' />
+                            <label For={questons.id}>{questons.options[2]}</label>
+                        </li>
+                        <li>
+                            <input type="radio" id={questons.id} name='answer' className='radio' />
+                            <label For={questons.id}>{questons.options[3]}</label>
+                        </li> */}
+
+
+                    {/* <p className=''>{questons.options[0]}</p>
+                    <p className=''>{questons.options[1]}</p>
+                    <p className=''>{questons.options[2]}</p>
+                    <p className=''>{questons.options[3]}</p> */}
