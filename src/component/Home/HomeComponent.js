@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HomeComponent = ({catagory}) => {
     // console.log(catagory);
     return (
-        <div className='contant border rounded p-10'>
+        <div className='contant border rounded p-8'>
             <img src={catagory.logo} alt="" />
             <p>{catagory.name}</p>
             <p>Total {catagory.total}</p>
