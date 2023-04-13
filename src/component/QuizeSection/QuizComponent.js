@@ -48,7 +48,7 @@ const QuizComponent = ({ questons }) => {
                         quisOption.map(option => <QuizeOptions
                             key={option.id}
                             option={option}
-                            // correctAns={questons.correctAnswer}
+                           
                             chekQuiz={chekQuiz}
                         ></QuizeOptions>)
                     }
