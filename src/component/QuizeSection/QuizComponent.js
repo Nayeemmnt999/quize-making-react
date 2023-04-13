@@ -23,6 +23,7 @@ const QuizComponent = ({ questons }) => {
         }
         else {
             toast('not correct')
+            toast('trty again')
         }
     }
     const correctAnsToast = () => {
