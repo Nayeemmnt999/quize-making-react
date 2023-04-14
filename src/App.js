@@ -32,6 +32,9 @@ function App() {
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizeData}`)
           },
           element: <QuizeSection></QuizeSection>
+        },
+        {
+          path: '/*', element: <p>this route is not found(404)</p>
         }
 
       ]
