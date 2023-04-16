@@ -8,7 +8,7 @@ const HomeComponent = ({catagory}) => {
             <img src={catagory.logo} alt="" />
             <p>{catagory.name}</p>
             <p>Total {catagory.total}</p>
-            <Link to={`/quiz/${catagory.id}`} className=' border rounded ps-4 pe-4'>Start</Link>
+            <Link to={`/quiz/${catagory.id}`} className='btn btn-outline btn-success mt-3 '>Start Now</Link>
         </div>
     );
 };
